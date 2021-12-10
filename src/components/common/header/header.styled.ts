@@ -64,7 +64,7 @@ const LinkItem = styled.li`
   }
 `;
 
-const Link = styled(RouterLink)`
+const Link = styled(RouterLink)<any>`
   display: block;
   max-width: 100px;
   font-size: ${({ theme }) => theme.font.semibase};

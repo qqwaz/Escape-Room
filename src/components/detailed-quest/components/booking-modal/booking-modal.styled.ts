@@ -91,7 +91,7 @@ const BookingLabel = styled.label`
   color: ${({ theme }) => theme.color.whisper2};
 `;
 
-const BookingInput = styled.input`
+const BookingInput = styled.input<any>`
   padding-top: 17px;
   padding-right: 24px;
   padding-bottom: 18px;
